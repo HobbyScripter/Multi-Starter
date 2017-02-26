@@ -92,6 +92,7 @@
             this.mButtonSend.Size = new System.Drawing.Size(75, 23);
             this.mButtonSend.TabIndex = 5;
             this.mButtonSend.Text = "Send";
+            this.mButtonSend.Click += new System.EventHandler(this.mButtonSend_Click);
             // 
             // Login
             // 

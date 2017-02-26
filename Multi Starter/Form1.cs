@@ -20,5 +20,10 @@ namespace Multi_Starter
             this.StyleManager = msmMainL;
 
         }
+
+        private void mButtonSend_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
