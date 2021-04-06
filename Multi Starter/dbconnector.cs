@@ -28,9 +28,9 @@ namespace Multi_Starter
         private void Initialize()
         {
             server = "localhost";
-            database = "yes_newera";
+            database = "********";
             uid = "root";
-            pass = "serverloft881";
+            pass = "********";
             string connstring;
             connstring = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "PASSWORD" + pass + ";";
             conn = new MySqlConnection(connstring);
